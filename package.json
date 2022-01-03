@@ -1,0 +1,44 @@
+{
+  "name": "bitwisebread-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "eslint '**/*.{js,jsx}'",
+    "prettier": "prettier --write 'src/**/*.{js,jsx}'",
+    "start": "next start",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.4.2",
+    "clsx": "^1.1.1",
+    "dayjs": "^1.10.7",
+    "glob": "^7.2.0",
+    "next": "12.0.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "windicss": "^3.2.1"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^12.0.3",
+    "@windicss/plugin-animations": "^1.0.9",
+    "@windicss/plugin-question-mark": "^0.1.1",
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.3",
+    "eslint-config-prettier": "^8.3.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^11.2.6",
+    "prettier": "2.4.1",
+    "windicss-webpack-plugin": "^1.5.6"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "eslint --cache --fix",
+      "prettier --write"
+    ],
+    "*.{css,md}": [
+      "prettier --write"
+    ]
+  }
+}
