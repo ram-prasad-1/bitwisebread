@@ -12,25 +12,26 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.4.2",
+    "@tailwindcss/forms": "^0.4.0",
+    "@tailwindcss/typography": "^0.5.0",
     "clsx": "^1.1.1",
     "dayjs": "^1.10.7",
     "glob": "^7.2.0",
-    "next": "12.0.3",
+    "next": "12.0.7",
     "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "windicss": "^3.2.1"
+    "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^12.0.3",
-    "@windicss/plugin-animations": "^1.0.9",
-    "@windicss/plugin-question-mark": "^0.1.1",
-    "eslint": "7.32.0",
-    "eslint-config-next": "12.0.3",
+    "@next/bundle-analyzer": "^12.0.7",
+    "autoprefixer": "^10.4.1",
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.7",
     "eslint-config-prettier": "^8.3.0",
     "husky": "^7.0.4",
-    "lint-staged": "^11.2.6",
-    "prettier": "2.4.1",
-    "windicss-webpack-plugin": "^1.5.6"
+    "lint-staged": "^12.1.5",
+    "postcss": "^8.4.5",
+    "prettier": "2.5.1",
+    "tailwindcss": "^3.0.9"
   },
   "lint-staged": {
     "*.{js,jsx}": [
