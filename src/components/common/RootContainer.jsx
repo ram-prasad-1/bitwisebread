@@ -1,6 +1,6 @@
-import React from 'react'
-import Nav from '@/components/common/Nav'
-import Footer from '@/components/common/Footer'
+import React from 'react';
+import Nav from '@/components/common/Nav';
+import Footer from '@/components/common/Footer';
 
 export default function RootContainer({ children }) {
   return (
@@ -11,5 +11,5 @@ export default function RootContainer({ children }) {
         <Footer />
       </div>
     </>
-  )
+  );
 }

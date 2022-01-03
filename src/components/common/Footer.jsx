@@ -18,5 +18,5 @@ export default function Footer() {
         </a>
       </section>
     </footer>
-  )
+  );
 }

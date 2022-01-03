@@ -1,4 +1,4 @@
-import RootContainer from '@/components/common/RootContainer'
+import RootContainer from '@/components/common/RootContainer';
 
 export default function HomePage() {
   return (
@@ -23,5 +23,5 @@ export default function HomePage() {
         </a>
       </section>
     </RootContainer>
-  )
+  );
 }
